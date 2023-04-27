@@ -1,0 +1,27 @@
+﻿<div class="modal" id="Modal1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-tittle">Form Ekleme Sayfası</h1>
+            </div>
+            <form method="post" action="/AdminCategory/AddCategory/">
+                <div class="modal-body">
+                    <label>Form Adı</label>
+                    <input type="text" name="Name" class="form-control" />
+                    <br />
+                    <label>Form Açıklaması</label>
+                    <input type="text" name="Description" class="form-control" />
+                    <br />
+                    <label>Oluşturulma Tarihi</label>
+                    <input type="text" name="CreatedAt" class="form-control" />
+                    <br />
+                    <label>Oluşturan ID</label>
+                    <input type="text" name="CreatedBy" class="form-control" />
+                    <br />
+
+                    <button class="btn btn-info">Kaydet</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
